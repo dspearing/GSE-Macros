@@ -1,0 +1,10 @@
+KeyPress:
+/targetenemy [noharm]
+/click [mod:shift] Z_SI_ROUTINE
+/castsequence [mod:ctrl,talent:5/3,@cursor] Ring of Frost
+
+Sequence:
+/cast Dragon's Breath
+/cast [talent:7/3,@cursor] Meteor
+/cast [@cursor] Flamestrike
+/cast [talent:2/3] Blast Wave
