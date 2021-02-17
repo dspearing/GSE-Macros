@@ -1,0 +1,10 @@
+PreMacro:
+/cast [nochanneling,exists] Combustion
+
+KeyPress:
+/use 13
+/use 14
+/use 14
+
+Sequence:
+/cancleaura Soul Ignition
