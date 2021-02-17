@@ -1,0 +1,17 @@
+KeyPress:
+/targetenemy [noharm]
+/stopcasting [mod:alt][mod:shift]
+/click [mod:shift] Z_SI_ROUTINE
+/castsequence [mod:alt] Pyroblast; [mod:ctrl] Shifting Power; [talent:3/2,@focus,help,nodead] reset=nocombat  Focus Magic, null
+
+Sequence:
+/cast [combat,talent:3/3,exists] Rune of Power
+/cast [talent:6/3,exists] Living Bomb
+/cast [exists] Scorch
+/cast [combat,exists] Fireball
+/cast [exists] Phoenix Flames
+/cast [exists] Greater Pyroblast
+
+KeyRelease:
+/cast [exists] Fire Blast
+/cast [nochanneling] Blazing Barrier
