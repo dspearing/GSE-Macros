@@ -5,12 +5,14 @@ KeyPress:
 /castsequence [mod:alt] Pyroblast; [mod:ctrl] Shifting Power; [talent:3/2,@focus,help,nodead] reset=nocombat  Focus Magic, null
 
 Sequence:
-/cast [combat,talent:3/3,exists] Rune of Power
-/cast [talent:6/3,exists] Living Bomb
-/cast [exists] Scorch
-/cast [combat,exists] Fireball
-/cast [exists] Phoenix Flames
-/cast [exists] Greater Pyroblast
+/cast [nochanneling,combat,talent:3/3,exists] Rune of Power
+/cast [nochanneling,talent:6/3,exists] Living Bomb
+/cast [nochanneling,talent:7/3,@cursor] Meteor
+/cast [nochanneling,talent:2/3] Blast Wave
+/cast [nochanneling,exists] Scorch
+/cast [nochanneling,exists] Fireball
+/cast [nochanneling,exists] Phoenix Flames
+/cast [nochanneling,exists] Greater Pyroblast
 
 KeyRelease:
 /cast [exists] Fire Blast
