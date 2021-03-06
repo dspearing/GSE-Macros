@@ -1,0 +1,10 @@
+KeyPress:
+/cancelform [form:1/2/3/4/6/7]
+/target mouseover
+
+Sequence:
+/castsequence [talent:3/3,@mouseover] Rejuvenation, Regrowth, Regrowth, Regrowth; [@mouseover] Regrowth
+/cast [talent:3/3,@mouseover] Swiftmend
+
+KeyRelease:
+/cast [nochanneling,talent:3/3,mod:alt,@mouseover] Wild Growth
