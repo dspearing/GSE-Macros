@@ -1,0 +1,9 @@
+PreMacro:
+/cancleform [form:1/2/3/5/6/7]
+/use 14
+
+KeyPress:
+/cast Barkskin
+
+Sequence:
+/cast Convoke the Spirits
