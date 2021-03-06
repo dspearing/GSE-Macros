@@ -1,0 +1,11 @@
+KeyPress:
+/targetenemy [noharm]
+/startattack [nocombat]
+/castsequence [mod:shift,talent:2/2,nochanneling,combat] Barkskin, Renewal; [mod:shift,notalent:2/2,nochanneling,combat] Barkskin
+
+Sequence:
+/click [mod:ctrl] !CONVOKE
+/cast [mod:shift,talent:3/2,nochanneling] Frenzied Regeneration
+/castsequence [nochanneling,combat] reset=combat  Mangle
+/castsequence [talent:3/2,nochanneling,combat,exists] reset=combat  Thrash
+/cast [nomod,nochanneling,combat] Ironfur
